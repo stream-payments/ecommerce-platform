@@ -19,7 +19,7 @@ A decentralized e-commerce platform
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
   </a>
-  <a href="https://discord.gg/xAzpQGKfMW">
+  <a href="https://discord.gg/vXgRRz4m">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
   </a>
   <a href="https://twitter.com/intent/follow?screen_name=streamprotocol">
