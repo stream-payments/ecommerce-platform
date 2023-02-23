@@ -45,8 +45,9 @@ Your customers use the Storefront to view products and make orders. StreamPay pl
 ##### Development
 
 - Web3 payments features
-- Cryptocurrencies
-- EUROe, EURC, USDC stablecoin support
-- Stream Payments Gateway and bridge
-- 
+- Cryptocurrency, cross-chain features
+- EUROe, EURC, USDC stablecoin support and features
+- Stream Payments Gateway
+- Store/shop UI/UX re-desing
+- Brand tweaks, etc.
 
