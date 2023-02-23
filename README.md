@@ -50,4 +50,6 @@ Your customers use the Storefront to view products and make orders. StreamPay pl
 - Stream Payments Gateway
 - Store/shop UI/UX re-desing
 - Brand tweaks, etc.
+- StreamPay API
+- NMP implementation
 
