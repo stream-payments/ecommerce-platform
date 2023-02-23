@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="https://www.medusa-commerce.com">
-    <img alt="Medusa" src="https://i.imgur.com/USubGVY.png" width="100" />
+  <a href="https://demo.streampay.shop">
+    <img alt="StreamPay" src="https://i.imgur.com/USubGVY.png" width="100" />
   </a>
 </p>
 <h1 align="center">
-  Medusa Starter Default
+  StreamPay 
 </h1>
 <p align="center">
-This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">Medusa</a>. Follow the steps below to get ready.
+This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">StreamPay</a>. Follow the steps below to get ready.
 </p>
 <p align="center">
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/LICENSE">
@@ -44,23 +44,23 @@ This starter has minimal prerequisites and most of these will usually already be
   npm install -g @medusajs/medusa
   yarn global add @medusajs/medusa
   ```
-- Create a new Medusa project
+- Create a new StreamPay project
   ```
-  medusa new my-medusa-store
+  medusa new my-streampay-store
   ```
 - Run your project
   ```
-  cd my-medusa-store
+  cd my-streampay-store
   medusa develop
   ```
 
-Your local Medusa server is now running on port **9000**.
+Your local StreamPay eCommerce server is now running on port **9000**.
 
-### Seeding your Medusa store
+### Seeding your StreamPay store
 
 ---
 
-To seed your medusa store run the following command:
+To seed your StreamPay store run the following command:
 
 ```
 medusa seed -f ./data/seed.json
@@ -74,9 +74,9 @@ This command seeds your database with some sample data to get you started, inclu
   ```
   npm install -g @medusajs/medusa-cli
   ```
-- Create a new Medusa project
+- Create a new StreamPay project
   ```
-  medusa new my-medusa-store
+  medusa new my-streampay-store
   ```
 - Update project config in `medusa-config.js`:
 
@@ -113,13 +113,13 @@ Your local Medusa server is now running on port **9000**.
 
 ---
 
-To add seed data to your medusa store running with Docker, run this command in a seperate terminal:
+To add seed data to your StreamPay store running with Docker, run this command in a seperate terminal:
 
 ```
 docker exec medusa-server medusa seed -f ./data/seed.json
 ```
 
-This will execute the previously described seed script in the running `medusa-server` Docker container.
+This will execute the previously described seed script in the running `streampay-server` Docker container.
 
 ## Try it out
 
