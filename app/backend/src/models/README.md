@@ -35,7 +35,7 @@ Entities data can be easily accessed and modified using [TypeORM Repositories](h
 ```ts
 // src/repositories/post.ts
 
-import { EntityRepository, Repository } from "typeform"
+import { EntityRepository, Repository } from "typeorm"
 
 import { Post } from "../models/post"
 
