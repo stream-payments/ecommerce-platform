@@ -23,7 +23,7 @@
         "sqlite",
         "ecommerce",
         "headless",
-        "medusa"
+        "streampay"
     ],
     "devDependencies": {
         "@babel/cli": "^7.18.10",

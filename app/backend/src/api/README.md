@@ -9,7 +9,7 @@ export default () => {
 
   router.get("/hello-world", (req, res) => {
     res.json({
-      message: "Welcome to Medusa!"
+      message: "Welcome to StreamPay!"
     })
   })
 

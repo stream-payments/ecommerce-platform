@@ -5,7 +5,7 @@ You may define custom services that will be registered on the global container b
 ```js
 // my.js
 
-import { BaseService } from "medusa-interfaces";
+import { BaseService } from "stream-pay-interfaces";
 
 class MyService extends BaseService {
   constructor({ productService }) {

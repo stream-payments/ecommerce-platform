@@ -35,7 +35,7 @@ Entities data can be easily accessed and modified using [TypeORM Repositories](h
 ```ts
 // src/repositories/post.ts
 
-import { EntityRepository, Repository } from "typeorm"
+import { EntityRepository, Repository } from "typeform"
 
 import { Post } from "../models/post"
 
@@ -43,4 +43,4 @@ import { Post } from "../models/post"
 export class PostRepository extends Repository<Post> { }
 ```
 
-See more about defining and accesing your custom [Entities](https://docs.medusajs.com/advanced/backend/entities/overview) in the documentation.
+See more about defining and accessing your custom [Entities](https://docs.medusajs.com/advanced/backend/entities/overview) in the documentation.

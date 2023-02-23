@@ -1,6 +1,6 @@
 FROM node:17.1.0
 
-WORKDIR /app/medusa
+WORKDIR /app/stream-pay
 
 COPY package.json .
 COPY develop.sh .
