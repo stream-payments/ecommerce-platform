@@ -7,7 +7,7 @@
   StreamPay 
 </h1>
 <p align="center">
-This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">Medusa</a>. Follow the steps below to get ready.
+This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">StreamPay</a>. Follow the steps below to get ready.
 </p>
 <p align="center">
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/LICENSE">
