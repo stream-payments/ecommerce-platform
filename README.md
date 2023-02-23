@@ -52,4 +52,6 @@ Your customers use the Storefront to view products and make orders. StreamPay pl
 - Brand tweaks, etc.
 - StreamPay API
 - NPM/YARN implementation
-
+- Merchant platform
+- Smart contract development, Escrow feature
+- B2B marketplace
