@@ -866,7 +866,9 @@
     "winston" "^3.8.2"
     "yargs" "^15.3.1"
 
-"@medusajs/medusa@^1.6.0":
+"@medusajs/medusa@^1.1.54":
+  "integrity" "sha512-RTePkKOW+xOIIDJO4av7zRR8OhyGeVad7KtelLnYTDZG5GMYOizLVYtSWQDQJyyY6f08sPM32BNYxfLAMB1mHw=="
+  "resolved" "https://registry.npmjs.org/@medusajs/medusa/-/medusa-1.7.8.tgz"
   "version" "1.7.8"
   dependencies:
     "@medusajs/medusa-cli" "^1.3.8"
@@ -1072,6 +1074,8 @@
   "version" "1.1.2"
 
 "@types/ioredis@^4.28.10":
+  "integrity" "sha512-69LyhUgrXdgcNDv7ogs1qXZomnfOEnSmrmMFqKgt1XMJxmoOSG/u3wYy13yACIfKuMJ8IhKgHafDO3sx19zVQQ=="
+  "resolved" "https://registry.npmjs.org/@types/ioredis/-/ioredis-4.28.10.tgz"
   "version" "4.28.10"
   dependencies:
     "@types/node" "*"
@@ -1206,6 +1210,8 @@
   "version" "1.0.5"
 
 "awilix@^8.0.0":
+  "integrity" "sha512-9y4ejNj2nLu7ET8jtQPiI3Ibvu68iKcLbLy5pGsPy9HWWVyQhTT8YE+Ao7ZawTNXRWjosSy/r4QNmhaUt/ju0A=="
+  "resolved" "https://registry.npmjs.org/awilix/-/awilix-8.0.0.tgz"
   "version" "8.0.0"
   dependencies:
     "camel-case" "^4.1.2"
@@ -1416,6 +1422,8 @@
     "get-intrinsic" "^1.0.2"
 
 "camel-case@^4.1.2":
+  "integrity" "sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw=="
+  "resolved" "https://registry.npmjs.org/camel-case/-/camel-case-4.1.2.tgz"
   "version" "4.1.2"
   dependencies:
     "pascal-case" "^3.1.2"
@@ -1472,6 +1480,8 @@
   "version" "3.8.0"
 
 "class-transformer@^0.5.1":
+  "integrity" "sha512-SQa1Ws6hUbfC98vKGxZH3KFY0Y1lm5Zm0SY8XX9zbK7FJCyVEac3ATW0RIpwzW+oOfmHE5PMPufDG9hCfoEOMw=="
+  "resolved" "https://registry.npmjs.org/class-transformer/-/class-transformer-0.5.1.tgz"
   "version" "0.5.1"
 
 "class-validator@^0.13.2":
@@ -1708,6 +1718,8 @@
     "moment-timezone" "^0.5.31"
 
 "cron-parser@^4.2.0":
+  "integrity" "sha512-WguFaoQ0hQ61SgsCZLHUcNbAvlK0lypKXu62ARguefYmjzaOXIVRNrAmyXzabTwUn4sQvQLkk6bjH+ipGfw8bA=="
+  "resolved" "https://registry.npmjs.org/cron-parser/-/cron-parser-4.7.1.tgz"
   "version" "4.7.1"
   dependencies:
     "luxon" "^3.2.1"
@@ -2706,9 +2718,13 @@
     "triple-beam" "^1.3.0"
 
 "long-timeout@0.1.1":
+  "integrity" "sha512-BFRuQUqc7x2NWxfJBCyUrN8iYUYznzL9JROmRz1gZ6KlOIgmoD+njPVbb+VNn2nGMKggMsK79iUNErillsrx7w=="
+  "resolved" "https://registry.npmjs.org/long-timeout/-/long-timeout-0.1.1.tgz"
   "version" "0.1.1"
 
 "lower-case@^2.0.2":
+  "integrity" "sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg=="
+  "resolved" "https://registry.npmjs.org/lower-case/-/lower-case-2.0.2.tgz"
   "version" "2.0.2"
   dependencies:
     "tslib" "^2.0.3"
@@ -2724,6 +2740,8 @@
     "yallist" "^4.0.0"
 
 "luxon@^3.2.1":
+  "integrity" "sha512-QrwPArQCNLAKGO/C+ZIilgIuDnEnKx5QYODdDtbFaxzsbZcc/a7WFq7MhsVYgRlwawLtvOUESTlfJ+hc/USqPg=="
+  "resolved" "https://registry.npmjs.org/luxon/-/luxon-3.2.1.tgz"
   "version" "3.2.1"
 
 "make-dir@^2.1.0":
@@ -2975,6 +2993,8 @@
   "version" "1.0.5"
 
 "no-case@^3.0.4":
+  "integrity" "sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg=="
+  "resolved" "https://registry.npmjs.org/no-case/-/no-case-3.0.4.tgz"
   "version" "3.0.4"
   dependencies:
     "lower-case" "^2.0.2"
@@ -3006,6 +3026,8 @@
   "version" "2.0.10"
 
 "node-schedule@^2.1.1":
+  "integrity" "sha512-OXdegQq03OmXEjt2hZP33W2YPs/E5BcFQks46+G2gAxs4gHOIVD1u7EqlYLYSKsaIpyKCK9Gbk0ta1/gjRSMRQ=="
+  "resolved" "https://registry.npmjs.org/node-schedule/-/node-schedule-2.1.1.tgz"
   "version" "2.1.1"
   dependencies:
     "cron-parser" "^4.2.0"
@@ -3158,6 +3180,8 @@
   "version" "1.0.0"
 
 "papaparse@^5.3.2":
+  "integrity" "sha512-6dNZu0Ki+gyV0eBsFKJhYr+MdQYAzFUGlBMNj3GNrmHxmz1lfRa24CjFObPXtjcetlOv5Ad299MhIK0znp3afw=="
+  "resolved" "https://registry.npmjs.org/papaparse/-/papaparse-5.3.2.tgz"
   "version" "5.3.2"
 
 "parse5-htmlparser2-tree-adapter@^6.0.0":
@@ -3175,6 +3199,8 @@
   "version" "1.3.3"
 
 "pascal-case@^3.1.2":
+  "integrity" "sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g=="
+  "resolved" "https://registry.npmjs.org/pascal-case/-/pascal-case-3.1.2.tgz"
   "version" "3.1.2"
   dependencies:
     "no-case" "^3.0.4"
@@ -3685,6 +3711,8 @@
     "smart-buffer" "^4.2.0"
 
 "sorted-array-functions@^1.3.0":
+  "integrity" "sha512-2sqgzeFlid6N4Z2fUQ1cvFmTOLRi/sEDzSQ0OKYchqgoPmQBVyM3959qYx3fpS6Esef80KjmpgPeEr028dP3OA=="
+  "resolved" "https://registry.npmjs.org/sorted-array-functions/-/sorted-array-functions-1.3.0.tgz"
   "version" "1.3.0"
 
 "split2@^4.1.0":

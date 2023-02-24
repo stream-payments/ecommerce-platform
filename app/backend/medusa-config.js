@@ -22,10 +22,10 @@ try {
 } catch (e) {}
 
 // CORS when consuming StreamPay from admin
-const ADMIN_CORS = process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001";
+const ADMIN_CORS = process.env.ADMIN_CORS || "https://stream-commerce-admin.herokuapp.com/";
 
 // CORS to avoid issues when consuming StreamPay from a client
-const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000";
+const STORE_CORS = process.env.STORE_CORS || "https://stream-commerce-admin.herokuapp.com:8000/";
 
 // Database URL (here we use a local database called stream-pay-development)
 const DATABASE_URL =
@@ -64,9 +64,7 @@ module.exports = {
         database_type: "postgres",
         store_cors: STORE_CORS,
         admin_cors: ADMIN_CORS,
-        database_extra: process.env.NODE_ENV !== "development" ?
-            { ssl: { rejectUnauthorized: false } } :
-            {},
+        database_extra: process.env.NODE_ENV !== "development" ? { ssl: { rejectUnauthorized: false } } : {},
     },
     plugins,
 }
