@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  e-Commerce platform backend
+  eCommerce backend
 </h1>
 <p align="center">
 This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">StreamPay</a>. Follow the steps below to get ready.
