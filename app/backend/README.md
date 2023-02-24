@@ -1,26 +1,34 @@
 <p align="center">
-  <a href="https://demo.streampay.shop">
+  <a href="https://streampay-marketplace-admin.netlify.app/login">
     <img alt="StreamPay" src="https://i.imgur.com/USubGVY.png" width="100" />
   </a>
 </p>
 <h1 align="center">
-  StreamPay 
+<<<<<<< HEAD
+  e-Commerce platform backend
+=======
+  e-Commerce backend based of Medusa Store
+>>>>>>> 241b580 (commit)
 </h1>
 <p align="center">
 This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">StreamPay</a>. Follow the steps below to get ready.
 </p>
 <p align="center">
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Medusa is released under the MIT license." />
+<<<<<<< HEAD
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="StreamPay eCommerce Platform is released under the MIT license." />
+=======
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="StreamPay e-Commerce Platform is released under the MIT license." />
+>>>>>>> 241b580 (commit)
   </a>
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="Welcome!" />
   </a>
-  <a href="https://discord.gg/xAzpQGKfMW">
+  <a href="https://discord.gg/vXgRRz4m">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
   </a>
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
-    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
+  <a href="https://twitter.com/intent/follow?screen_name=stream_protocol">
+    <img src="https://img.shields.io/twitter/follow/stream-pay.svg?label=Follow%20@stream_protocol" alt="Follow @stream_protocol" />
   </a>
   <p align="center">
     <a href="https://heroku.com/deploy?template=https://github.com/stream-payments/ecommerce-platform/tree/feat/deploy-heroku">
@@ -44,7 +52,11 @@ This starter has minimal prerequisites and most of these will usually already be
   npm install -g @medusajs/medusa
   yarn global add @medusajs/medusa
   ```
+<<<<<<< HEAD
 - Create a new StreamPay project
+=======
+- Create a new StreamPay e-Commerce project
+>>>>>>> 241b580 (commit)
   ```
   medusa new my-streampay-store
   ```
@@ -54,7 +66,11 @@ This starter has minimal prerequisites and most of these will usually already be
   medusa develop
   ```
 
+<<<<<<< HEAD
 Your local StreamPay eCommerce server is now running on port **9000**.
+=======
+Your local StreamPay e-Commerce server is now running on port **9000**.
+>>>>>>> 241b580 (commit)
 
 ### Seeding your StreamPay store
 
@@ -107,13 +123,13 @@ This command seeds your database with some sample data to get you started, inclu
   docker-compose up
   ```
 
-Your local Medusa server is now running on port **9000**.
+Your local StreamPay server is now running on port **9000**.
 
-### Seeding your Medusa store with Docker
+### Seeding your StreamPay store with Docker
 
 ---
 
-To add seed data to your StreamPay store running with Docker, run this command in a seperate terminal:
+To add seed data to your StreamPay store running with Docker, run this command in a separate terminal:
 
 ```
 docker exec medusa-server medusa seed -f ./data/seed.json
@@ -137,15 +153,15 @@ After the seed script has run you will have the following things in you database
 Visit [docs.medusa-commerce.com](https://docs.medusa-commerce.com) for further guides.
 
 <p>
-  <a href="https://www.medusa-commerce.com">
-    Website
+  <a href="https://streampay-marketplace-admin.netlify.app/login">
+    Demo Website
   </a> 
   |
   <a href="https://medusajs.notion.site/medusajs/Medusa-Home-3485f8605d834a07949b17d1a9f7eafd">
     Notion Home
   </a>
   |
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
+  <a href="https://twitter.com/intent/follow?screen_name=stream_protocol">
     Twitter
   </a>
   |
