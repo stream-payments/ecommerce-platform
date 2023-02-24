@@ -4,22 +4,14 @@
   </a>
 </p>
 <h1 align="center">
-<<<<<<< HEAD
   e-Commerce platform backend
-=======
-  e-Commerce backend based of Medusa Store
->>>>>>> 241b580 (commit)
 </h1>
 <p align="center">
 This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">StreamPay</a>. Follow the steps below to get ready.
 </p>
 <p align="center">
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/LICENSE">
-<<<<<<< HEAD
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="StreamPay eCommerce Platform is released under the MIT license." />
-=======
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="StreamPay e-Commerce Platform is released under the MIT license." />
->>>>>>> 241b580 (commit)
   </a>
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="Welcome!" />
@@ -52,11 +44,7 @@ This starter has minimal prerequisites and most of these will usually already be
   npm install -g @medusajs/medusa
   yarn global add @medusajs/medusa
   ```
-<<<<<<< HEAD
 - Create a new StreamPay project
-=======
-- Create a new StreamPay e-Commerce project
->>>>>>> 241b580 (commit)
   ```
   medusa new my-streampay-store
   ```
@@ -66,11 +54,7 @@ This starter has minimal prerequisites and most of these will usually already be
   medusa develop
   ```
 
-<<<<<<< HEAD
 Your local StreamPay eCommerce server is now running on port **9000**.
-=======
-Your local StreamPay e-Commerce server is now running on port **9000**.
->>>>>>> 241b580 (commit)
 
 ### Seeding your StreamPay store
 
