@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://streampay-marketplace-admin.netlify.app/login">
-    <img alt="StreamPay" src="https://i.imgur.com/USubGVY.png" width="100" />
+    <img alt="StreamPay" src="https://i.imgur.com/3jUHsfu.png" width="100" />
   </a>
 </p>
 <h1 align="center">
-  e-Commerce platform backend
+  eCommerce backend
 </h1>
 <p align="center">
 This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">StreamPay</a>. Follow the steps below to get ready.
