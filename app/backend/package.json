@@ -5,8 +5,8 @@
     "author": "Stream Protocol <contact@streamprotocol.org>",
     "license": "MIT",
     "scripts": {
-        "serve": "medusa start",
-        "start": "medusa develop",
+        "serve": "streampay start",
+        "start": "streampay develop",
         "heroku-postbuild": "medusa migrations run",
         "prepare": "npm run build",
         "build": "babel src -d dist --extensions \".ts,.js\""

@@ -1,6 +1,6 @@
 FROM node:17.1.0
 
-WORKDIR /app/stream-pay
+WORKDIR /app/streampay
 
 COPY package.json .
 COPY develop.sh .
