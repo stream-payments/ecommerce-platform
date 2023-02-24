@@ -5,9 +5,11 @@
     "author": "Stream Protocol <contact@streamprotocol.org>",
     "license": "MIT",
     "scripts": {
-        "seed": "medusa seed -f ./data/seed.json",
-        "build": "babel src -d dist --extensions \".ts,.js\"",
-        "start": "medusa develop"
+        "serve": "medusa start",
+        "start": "medusa develop",
+        "heroku-postbuild": "medusa migrations run",
+        "prepare": "npm run build",
+        "build": "babel src -d dist --extensions \".ts,.js\""
     },
     "dependencies": {
         "@medusajs/medusa": "^1.6.0",
