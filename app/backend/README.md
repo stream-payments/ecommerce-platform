@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://streampay-marketplace-admin.netlify.app/login">
-    <img alt="StreamPay" src="https://i.imgur.com/USubGVY.png" width="100" />
+    <img alt="StreamPay" src="https://i.imgur.com/3jUHsfu.png" width="100" />
   </a>
 </p>
 <h1 align="center">
