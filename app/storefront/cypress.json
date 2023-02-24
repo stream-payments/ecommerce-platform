@@ -1,8 +1,8 @@
 {
-  "baseUrl": "http://localhost:8000",
-  "env": {
-    "codeCoverage": {
-      "url": "/api/__coverage__"
+    "baseUrl": "https://streampay-store.netlify.app/",
+    "env": {
+        "codeCoverage": {
+            "url": "/api/__coverage__"
+        }
     }
-  }
 }

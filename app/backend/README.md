@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  eCommerce backend
+  A Decentralized eCommerce Platform - Backend
 </h1>
 <p align="center">
 This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">StreamPay</a>. Follow the steps below to get ready.
@@ -149,7 +149,7 @@ Visit [docs.medusa-commerce.com](https://docs.medusa-commerce.com) for further g
     Twitter
   </a>
   |
-  <a href="https://docs.medusa-commerce.com">
+  <a href="https://docs.streampay.store/">
     Docs
   </a>
 </p>
