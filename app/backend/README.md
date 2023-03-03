@@ -1,29 +1,29 @@
 <p align="center">
-  <a href="https://streampay-marketplace-admin.netlify.app/login">
-    <img alt="StreamPay" src="https://i.imgur.com/3jUHsfu.png" width="100" />
+  <a href="https://www.medusa-commerce.com">
+    <img alt="StreamPay" src="https://i.imgur.com/USubGVY.png" width="100" />
   </a>
 </p>
 <h1 align="center">
-  A Decentralized eCommerce Platform - Backend
+  eCommerce Backend
 </h1>
 <p align="center">
-This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/ecommerce-platform">StreamPay</a>. Follow the steps below to get ready.
+This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payments/streampay-server">StreamPay</a>. Follow the steps below to get ready.
 </p>
 <p align="center">
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="StreamPay eCommerce Platform is released under the MIT license." />
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Medusa is released under the MIT license." />
   </a>
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="Welcome!" />
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
   </a>
-  <a href="https://discord.gg/vXgRRz4m">
+  <a href="https://discord.gg/xpCwq3Kfn8">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
   </a>
   <a href="https://twitter.com/intent/follow?screen_name=stream_protocol">
-    <img src="https://img.shields.io/twitter/follow/stream-pay.svg?label=Follow%20@stream_protocol" alt="Follow @stream_protocol" />
+    <img src="https://img.shields.io/twitter/follow/streampay.svg?label=Follow%20@stream_protocol" alt="Follow @stream_protocol" />
   </a>
   <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/stream-payments/ecommerce-platform/tree/feat/deploy-heroku">
+    <a href="https://heroku.com/deploy?template=https://github.com/stream-payments/ecommerce-platform-starter-default/tree/feat/deploy-heroku">
       <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
     </a>
   </p>
@@ -44,23 +44,23 @@ This starter has minimal prerequisites and most of these will usually already be
   npm install -g @medusajs/medusa
   yarn global add @medusajs/medusa
   ```
-- Create a new StreamPay project
+- Create a new Medusa project
   ```
-  medusa new my-streampay-store
+  medusa new my-medusa-store
   ```
 - Run your project
   ```
-  cd my-streampay-store
+  cd my-medusa-store
   medusa develop
   ```
 
-Your local StreamPay eCommerce server is now running on port **9000**.
+Your local Medusa server is now running on port **9000**.
 
-### Seeding your StreamPay store
+### Seeding your Medusa store
 
 ---
 
-To seed your StreamPay store run the following command:
+To seed your medusa store run the following command:
 
 ```
 medusa seed -f ./data/seed.json
@@ -74,9 +74,9 @@ This command seeds your database with some sample data to get you started, inclu
   ```
   npm install -g @medusajs/medusa-cli
   ```
-- Create a new StreamPay project
+- Create a new Medusa project
   ```
-  medusa new my-streampay-store
+  medusa new my-medusa-store
   ```
 - Update project config in `medusa-config.js`:
 
@@ -107,19 +107,19 @@ This command seeds your database with some sample data to get you started, inclu
   docker-compose up
   ```
 
-Your local StreamPay server is now running on port **9000**.
+Your local Medusa server is now running on port **9000**.
 
-### Seeding your StreamPay store with Docker
+### Seeding your Medusa store with Docker
 
 ---
 
-To add seed data to your StreamPay store running with Docker, run this command in a separate terminal:
+To add seed data to your medusa store running with Docker, run this command in a seperate terminal:
 
 ```
 docker exec medusa-server medusa seed -f ./data/seed.json
 ```
 
-This will execute the previously described seed script in the running `streampay-server` Docker container.
+This will execute the previously described seed script in the running `medusa-server` Docker container.
 
 ## Try it out
 
@@ -137,8 +137,8 @@ After the seed script has run you will have the following things in you database
 Visit [docs.medusa-commerce.com](https://docs.medusa-commerce.com) for further guides.
 
 <p>
-  <a href="https://streampay-marketplace-admin.netlify.app/login">
-    Demo Website
+  <a href="https://www.medusa-commerce.com">
+    Website
   </a> 
   |
   <a href="https://medusajs.notion.site/medusajs/Medusa-Home-3485f8605d834a07949b17d1a9f7eafd">
@@ -149,7 +149,7 @@ Visit [docs.medusa-commerce.com](https://docs.medusa-commerce.com) for further g
     Twitter
   </a>
   |
-  <a href="https://docs.streampay.store/">
+  <a href="https://docs.medusa-commerce.com">
     Docs
   </a>
 </p>

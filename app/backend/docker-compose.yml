@@ -5,12 +5,12 @@ services:
       context: .
       dockerfile: Dockerfile
     image: backend:starter
-    container_name: stream-pay-server-default
+    container_name: medusa-server-default
     depends_on:
       - postgres
       - redis
     environment:
-      DATABASE_URL: postgres://postgres:postgres@postgres:5432/stream-pay-docker
+      DATABASE_URL: postgres://postgres:postgres@postgres:5432/medusa-docker
       REDIS_URL: redis://redis
       NODE_ENV: development
       JWT_SECRET: something
@@ -19,8 +19,8 @@ services:
     ports:
       - "9000:9000"
     volumes:
-      - .:/app/stream-pay/node_modules
-      - node_modules:/app/stream-pay/node_modules
+      - .:/app/medusa
+      - node_modules:/app/medusa/node_modules
 
   postgres:
     image: postgres:10.4
@@ -29,7 +29,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: stream-pay-docker
+      POSTGRES_DB: medusa-docker
 
   redis:
     image: redis

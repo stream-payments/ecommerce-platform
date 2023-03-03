@@ -310,7 +310,7 @@
             "is_giftcard": false,
             "weight": 400,
             "images": [
-                "https://i.imgur.com/hdJdcgI.png",
+                "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-front.png",
                 "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-back.png"
             ],
             "options": [{

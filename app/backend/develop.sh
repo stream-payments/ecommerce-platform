@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Run migrations to ensure the database is updated
-streampay migrations run
+medusa migrations run
 
 #Start development environment
-streampay develop
+medusa develop

@@ -2,15 +2,15 @@
     "name": "streampay-next",
     "version": "1.0.3",
     "private": true,
-    "author": "Stream Protocol <contact@streamprotocol.org>",
-    "description": "Next.js to be used with StreamPay e-Commerce server",
+    "author": "Stream Protocol",
+    "description": "Next.js starter to be used with StreamPay e-commerce server",
     "keywords": [
         "streampay-storefront"
     ],
     "scripts": {
-        "dev": "next dev -p 8000",
+        "dev": "next dev -p 8001",
         "build": "next build",
-        "start": "next start -p 8000",
+        "start": "next start -p 8001",
         "lint": "next lint",
         "cypress": "cypress open",
         "analyze": "ANALYZE=true next build"

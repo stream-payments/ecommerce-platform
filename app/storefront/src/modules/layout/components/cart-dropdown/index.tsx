@@ -120,7 +120,7 @@ const CartDropdown = () => {
                   <div className="bg-gray-900 text-small-regular flex items-center justify-center w-6 h-6 rounded-full text-white">
                     <span>0</span>
                   </div>
-                  <span>Your Shopping Cart is empty.</span>
+                  <span>Your shopping cart is empty.</span>
                   <div>
                     <Link href="/store">
                       <a>

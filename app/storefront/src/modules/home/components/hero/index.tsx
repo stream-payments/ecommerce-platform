@@ -6,16 +6,17 @@ const Hero = () => {
     <div className="h-[90vh] w-full relative">
       <div className="text-white absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:text-left small:justify-end small:items-start small:p-32">
         <h1 className="text-2xl-semi mb-4 drop-shadow-md shadow-black">
-          Revolutionizing The Online Payment Industry
+          A Decentralized e-Commerce Platform
         </h1>
         <p className="text-base-regular max-w-[32rem] mb-6 drop-shadow-md shadow-black">
-        Stream Protocol is set to revolutionize the online payment industry with its web3 payment infrastructure.
-        StreamPay web3 payment infrastructure is designed to provide high efficiency, transparency, and fairness for both the merchants and the users.
+        StreamPay's mission to revolutionize the payment industry by developing a cutting-edge payment infrastructure is certainly ambitious. 
+        By creating a payment system that does not compromise privacy, friction, security, transparency, and store management, StreamPay aims to provide a seamless experience for both merchants and consumers. As the first open cross-chain payment network, 
+        StreamPay is paving the way for decentralized payments to become more widely available.
         </p>
         <UnderlineLink href="/store">Explore products</UnderlineLink>
       </div>
       <Image
-        src="/stream-pay-hero.png"
+        src="/hero.jpg"
         layout="fill"
         loading="eager"
         priority={true}

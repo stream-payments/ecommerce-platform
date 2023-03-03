@@ -10,7 +10,7 @@ const Home: NextPageWithLayout = () => {
     <>
       <Head
         title="Home"
-        description="Shop all available models only at the StreamPay. Decentralized e-Commerce. Secure Payment."
+        description="Shop all available models only at the StreamPay. Worldwide Shipping. Secure Payment."
       />
       <Hero />
       <FeaturedProducts />

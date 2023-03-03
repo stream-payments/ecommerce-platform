@@ -22,25 +22,21 @@ try {
 } catch (e) {}
 
 // CORS when consuming StreamPay from admin
-const ADMIN_CORS = process.env.ADMIN_CORS || "https://stream-commerce-admin.herokuapp.com/";
+const ADMIN_CORS = process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001,https://admin.streampay.shop,https://streampay-shop-admin.netlify.app";
 
 // CORS to avoid issues when consuming StreamPay from a client
-const STORE_CORS = process.env.STORE_CORS || "https://stream-commerce-admin.herokuapp.com:8000/";
+const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000,https://streampay.shop";
 
-// Database URL (here we use a local database called stream-pay-development)
+// Database URL (here we use a local database called streampay-development)
 const DATABASE_URL =
-    process.env.DATABASE_URL || "postgres://localhost/medusa-store";
+    process.env.DATABASE_URL || "postgres://qmnsghzwlurqgn:a4e6019b1198a05582bc4cc030429ba5c90225dab0b2411866c43b2b9222f74f@ec2-54-157-79-121.compute-1.amazonaws.com:5432/d5q617bhbn34hl";
 
-// StreamPay uses Redis, so this needs configuration as well
-const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
+// Medusa uses Redis, so this needs configuration as well
+const REDIS_URL = process.env.REDIS_URL || "https://dashboard.stackhero.io/account/organizations/org-amlw5v/stacks/stk-q7lfyr/services/";
 
 // Stripe keys
 const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "";
 const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "";
-
-// StreamPay keys
-const STREAM_PAY_API_KEY = process.env.STREAM_PAY_API_KEY || "";
-const STREAM_PAY_WEBHOOK_SECRET = process.env.STREAM_PAY_WEBHOOK_SECRET || "";
 
 // This is the place to include plugins. See API documentation for a thorough guide on plugins.
 const plugins = [
@@ -60,11 +56,13 @@ const plugins = [
 module.exports = {
     projectConfig: {
         redis_url: REDIS_URL,
+        // For more production-like environment install PostgresQL
         database_url: DATABASE_URL,
         database_type: "postgres",
+        //database_database: "./medusa-db.sql",
+        //database_type: "sqlite",
         store_cors: STORE_CORS,
         admin_cors: ADMIN_CORS,
-        database_extra: process.env.NODE_ENV !== "development" ? { ssl: { rejectUnauthorized: false } } : {},
     },
     plugins,
-}
+};

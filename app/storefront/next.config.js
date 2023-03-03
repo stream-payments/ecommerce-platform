@@ -5,7 +5,7 @@ module.exports = withStoreConfig({
     features: store.features,
     reactStrictMode: true,
     images: {
-        domains: ["https://streampay-store.netlify.app/", "localhost"],
+        domains: ["ec2-54-157-79-121.compute-1.amazonaws.com", "https://streampay.shop/images", "localhost"],
     },
 })
 

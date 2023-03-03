@@ -107,7 +107,7 @@ const ShippingInfoTab = () => {
           <div>
             <span className="font-semibold">Fast delivery</span>
             <p className="max-w-sm">
-              Your package will arrive in 7-9 business days at your pick up
+              Your package will arrive in 3-5 business days at your pick up
               location or in the comfort of your home.
             </p>
           </div>

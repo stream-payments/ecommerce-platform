@@ -36,7 +36,7 @@ const FooterNav = () => {
             <ul className="grid grid-cols-1 gap-y-2">
               <li>
                 <a
-                  href="https://github.com/stream-protocol"
+                  href="https://github.com/stream-payments/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -45,7 +45,7 @@ const FooterNav = () => {
               </li>
               <li>
                 <a
-                  href="https://docs.streampay.shop"
+                  href="https://docs.streamprotocol.org/ecommerce-platform"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -54,7 +54,7 @@ const FooterNav = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/stream-payments/ecommerce-platform"
+                  href="https://github.com/stream-protocol/ecommerce-platform"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -1,57 +1,40 @@
-# Overview
+# StreamPay Webshop, Medusajs + turborepo
 
-StreamPay e-Commerce Platform is composed of three different components: the headless server, the storefront, and the admin dashboard based of Medusa online store.
-e-Commerce Platform provides the necessary tools and resources to set up the three components separately. This ensures that developers have full freedom to choose their tech stack, as they can choose any framework for the storefront and admin dashboard.
-
-When you run the create-medusa-app command, you’ll install a StreamPay server, a admin dashboard, and optionally a storefront at the same time.
-
-## Architecture
-
-StreamPay is composed of three components: The StreamPay´s e-commerce platform server, the admin dashboard, and the storefront.
+This is an official starter for [e-Commerce Platform](https://commerce.streamprotocol.org) using [Turborepo](https://turbo.build/repo).
 
 
-## StreamPay e-Commerce Platform's Architecture
+## Required backend services
 
-#### Server
-The StreamPay server is a headless backend built on Node.js. This is the main component that holds all the logic and data of the store. Your admin dashboard and storefront interact with the backend to retrieve, create, and modify data through REST APIs.
+- [Railway](https://railway.app) - for hosting the server, Postgres and Redis.
+- [Digital Ocean](https://digitalocean.com) - for storing images in a bucket.
+- [Sendgrid](https://sendgrid.com) - for sending emails.
+- [Stripe](https://stripe.com) - for payments.
 
-Your server will include all functionalities related to your store’s checkout workflow. That includes cart management, shipping and payment providers, user management, and more. It also allows you to configure your store including your store’s region, tax rules, discounts, gift cards, and more.
+## Required frontend services
 
-#### Admin Dashboard
+- [Vercel](https://vercel.com) - for hosting the admin.
+- [Netlify](https://netlify.com) - for hosting the frontend.
 
-The admin dashboard is accessible by store operators. Store operators can use the admin dashboard to view, create, and modify data such as orders and products.
+## Optional services
 
-e-Commerce platform provides a beautiful admin dashboard that you can use right off the bat. StreamPay's admin dashboard provides a lot of functionalities to manage your store including Order management, Product management, User management, and more.
+- [Algolia](https://algolia.com) - for search.
+- [Meilisearch](https://meilisearch.com) - for search.
+- [Sentry](https://sentry.io) - for error tracking.
+- [Google Analytics](https://analytics.google.com) - for analytics.
 
-You can also create your own admin dashboard by utilizing the Admin REST APIs.
+## Optional CMS
 
-#### Storefront
+- [Sanity](https://sanity.io) - for managing content (with build in studio).
+- [Prismic](https://prismic.io) - for managing content.
+- [Contentful](https://contentful.com) - for managing content.
 
-Your customers use the Storefront to view products and make orders. StreamPay platform provides two storefronts, one built with Next.js and one with Gatsby. You are also free to create your own storefront using the Storefront REST APIs.
+## How to run locally
+1. Clone the repository
+2. Install dependencies in the root folder (because of the monorepo)
+```yarn install```
+3. Start the local development server
+```yarn dev```
 
-##### Features:
-- Orders, Exchanges, and Returns: Aside from the standard order management that comes with ecommerce platforms, StreamPay also provides an easy and automated way to manage swaps, returns, and claims.
-- Customers and Customer Groups: Manage Customers and assign them to customer groups.
-- Products and Collections: Add products with extensive customization settings and sort them into collections.
-- Region: Configure and manage multiple regions and currencies all from one platform.
-- Plugins: Easily integrate fulfillment providers, payment providers, notification services, and many other custom tools and third-party services.
-- PriceList and Discounts: Advanced pricing for products with conditions based on the amount in the cart or promotions and discounts.
-- Taxes: Advanced tax configurations specific to multiple regions, with the capability of specifying taxes for specific products.
-- Sales Channels: Create multiple sales channels and control which sales channels products are available in.
-- Bulk Import: Bulk import strategies for different entities including products and price lists.
-- Bulk Export: Bulk export strategies for different entities including products and orders.
-- Complete Customization Capabilities: Aside from all the features that StreamPay platform provides, it is completely customizable providing capabilities to create custom endpoints, services, subscribers, batch job strategies, and much more!
+## Railway setup
 
-##### Development
-
-- Web3 payments features
-- Cryptocurrency, cross-chain features
-- EUROe, EURC, USDC stablecoin support and features
-- Stream Payments Gateway
-- Store/shop UI/UX re-desing
-- Brand tweaks, etc.
-- StreamPay API
-- NPM/YARN implementation
-- Merchant platform
-- Smart contract development, Escrow feature
-- B2B marketplace
+![Railway setup](./railway-infra.png)

@@ -1,39 +1,39 @@
 <p align="center">
-  <a href="https://demo.streampay.store">
-    <img alt="StreamPay Commerce" src="https://i.imgur.com/3jUHsfu.png" width="100" />
+  <a href="https://www.medusajs.com">
+    <img alt="StreamPay" src="https://i.imgur.com/3jUHsfu.png" width="100" />
   </a>
 </p>
 
 <h1 align="center">
-  StreamPay
+  StreamPay Next.js Starter
 </h1>
 
 <p align="center">
-A decentralized e-commerce platform
+Medusa is an open-source headless commerce engine that enables developers to create amazing digital commerce experiences.
 </p>
 
 <p align="center">
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="StreamPay is released under the MIT license." />
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Medusa is released under the MIT license." />
   </a>
   <a href="https://github.com/stream-payments/ecommerce-platform/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
   </a>
-  <a href="https://discord.gg/vXgRRz4m">
+  <a href="https://discord.gg/xpCwq3Kfn8">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
   </a>
-  <a href="https://twitter.com/intent/follow?screen_name=streamprotocol">
+  <a href="https://twitter.com/intent/follow?screen_name=stream_protocol">
     <img src="https://img.shields.io/twitter/follow/streampay.svg?label=Follow%20@stream_protocol" alt="Follow @stream_protocol" />
   </a>
 </p>
 
-> **Prerequisites**: To use the starter you should have a Medusa server running locally on port 9000. Check out [e-commerce-platform](https://github.com/stream-payments/ecommerce-platform) for a quick setup.
+> **Prerequisites**: To use the starter you should have a Medusa server running locally on port 9000. Check out [medusa-starter-default](https://github.com/stream-payments/ecommerce-platform-starter-default) for a quick setup.
 
 # Overview
 
 ![next-starter](https://user-images.githubusercontent.com/45367945/182571697-a68c502f-5844-4eea-8735-7683f775ac8b.png)
 
-The StreamPay e-commerce platform is built with:
+The Medusa Next.js Starter is built with:
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)

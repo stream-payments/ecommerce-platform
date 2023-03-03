@@ -96,7 +96,7 @@ export const ProductProvider = ({
     return !variant
   }, [variant])
 
-  // memoized function to get the price of the current variant
+  // memorized function to get the price of the current variant
   const formattedPrice = useMemo(() => {
     if (variant && cart?.region) {
       return formatVariantPrice({ variant, region: cart.region })

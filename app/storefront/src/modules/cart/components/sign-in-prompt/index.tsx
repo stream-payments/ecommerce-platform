@@ -7,7 +7,7 @@ const SignInPrompt = () => {
       <div>
         <h2 className="text-xl-semi">Already have an account?</h2>
         <p className="text-base-regular text-gray-700 mt-2">
-          Sign in for a better shopping experience.
+          Sign in for a better experience.
         </p>
       </div>
       <div>

@@ -1,2 +1,2 @@
 [template.environment]
-NEXT_PUBLIC_MEDUSA_BACKEND_URL="https://streampay-store.netlify.app/"
+MEDUSA_BACKEND_URL="https://streampay-shop-admin.netlify.app"

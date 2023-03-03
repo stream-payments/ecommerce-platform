@@ -1,8 +1,8 @@
 import Medusa from "@medusajs/medusa-js"
 import { QueryClient } from "@tanstack/react-query"
 
-// Defaults to standard port for Medusa server
-let MEDUSA_BACKEND_URL = "http://localhost:9000"
+// Defaults to standard port for StreamPay server
+let MEDUSA_BACKEND_URL = "http://admin.streampay.shop"
 
 if (process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL) {
   MEDUSA_BACKEND_URL = process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL

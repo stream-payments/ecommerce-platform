@@ -25,13 +25,9 @@ const PaymentInfoMap: Record<string, { title: string; description: string }> = {
     title: "PayPal",
     description: "Secure payment with PayPal",
   },
-  streampay: {
-  title: "StreamPay",
-  description: "Secure payment with StreamPay",
-  },
   manual: {
     title: "Test payment",
-    description: "Test payment using stream-payment-manual",
+    description: "Test payment using medusa-payment-manual",
   },
 }
 

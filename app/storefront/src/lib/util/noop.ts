@@ -1,5 +1,5 @@
 /**
- * A function that does nothing.
+ * A funtion that does nothing.
  */
 const noop = () => {}
 

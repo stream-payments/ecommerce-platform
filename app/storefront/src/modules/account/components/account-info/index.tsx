@@ -76,7 +76,7 @@ const AccountInfo = ({
           )}
         >
           <div className="bg-green-100 text-green-500 p-4 my-4">
-            <span>{label} updated succesfully</span>
+            <span>{label} updated successfully</span>
           </div>
         </Disclosure.Panel>
       </Disclosure>
