@@ -5,12 +5,12 @@ services:
       context: .
       dockerfile: Dockerfile
     image: backend:starter
-    container_name: medusa-server-default
+    container_name: streampay-ecommerce-platform
     depends_on:
       - postgres
       - redis
     environment:
-      DATABASE_URL: postgres://postgres:postgres@postgres:5432/medusa-docker
+      DATABASE_URL: postgres://postgres:postgres@postgres:5432/streapay-ecommerce-docker
       REDIS_URL: redis://redis
       NODE_ENV: development
       JWT_SECRET: something
@@ -19,7 +19,7 @@ services:
     ports:
       - "9000:9000"
     volumes:
-      - .:/app/medusa
+      - .:/app/streampay
       - node_modules:/app/medusa/node_modules
 
   postgres:
