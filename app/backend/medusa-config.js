@@ -21,18 +21,18 @@ try {
     dotenv.config({ path: process.cwd() + '/' + ENV_FILE_NAME });
 } catch (e) {}
 
-// CORS when consuming StreamPay from admin
-const ADMIN_CORS = process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001,https://admin.streampay.shop,https://streampay-shop-admin.netlify.app";
+// CORS when consuming Medusa from admin
+const ADMIN_CORS = process.env.ADMIN_CORS || "https://admin.streampay.shop";
 
-// CORS to avoid issues when consuming StreamPay from a client
-const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000,https://streampay.shop";
+// CORS to avoid issues when consuming Medusa from a client
+const STORE_CORS = process.env.STORE_CORS || "https://streampay.shop";
 
-// Database URL (here we use a local database called streampay-development)
+// Database URL (here we use a local database called medusa-development)
 const DATABASE_URL =
-    process.env.DATABASE_URL || "postgres://qmnsghzwlurqgn:a4e6019b1198a05582bc4cc030429ba5c90225dab0b2411866c43b2b9222f74f@ec2-54-157-79-121.compute-1.amazonaws.com:5432/d5q617bhbn34hl";
+    process.env.DATABASE_URL || "postgres://uvmpphpocajcdx:a387783ee0f0b866c985580787e529dcbd062e3ab9c5d797cceaa5491441448e@ec2-99-80-170-190.eu-west-1.compute.amazonaws.com:5432/d9kdot9imlgfua";
 
 // Medusa uses Redis, so this needs configuration as well
-const REDIS_URL = process.env.REDIS_URL || "https://dashboard.stackhero.io/account/organizations/org-amlw5v/stacks/stk-q7lfyr/services/";
+const REDIS_URL = process.env.REDIS_URL || "redis://default:a4onM8LerOvcgMPClLGyQu6hWnZPIS1Oo8Gw0GFptGSHbSweamj1t4PcgwKGHHnu@im2udm.stackhero-network.com:6379";
 
 // Stripe keys
 const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "";

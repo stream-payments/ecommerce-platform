@@ -1,6 +1,6 @@
 # StreamPay Webshop, Medusajs + turborepo
 
-This is an official starter for [e-Commerce Platform](https://commerce.streamprotocol.org) using [Turborepo](https://turbo.build/repo).
+This is an official for [e-Commerce](https://streampay.shop) using [Turborepo](https://turbo.build/repo).
 
 
 ## Required backend services

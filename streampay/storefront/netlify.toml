@@ -1,0 +1,2 @@
+[template.environment]
+MEDUSA_BACKEND_URL="https://streampay-shop-admin.netlify.app"
