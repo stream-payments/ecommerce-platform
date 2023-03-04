@@ -20,9 +20,9 @@
         "medusa-payment-stripe": "^1.1.45",
         "typeorm": "^0.2.36"
     },
-    "repository": "https://github.com/stream-payments/streampay-server.git",
+    "repository": "https://github.com/stream-payments/ecommerce-platform",
     "keywords": [
-        "sqlite",
+        "postgres",
         "ecommerce",
         "headless",
         "streampay"
