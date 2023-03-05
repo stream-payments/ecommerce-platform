@@ -27,31 +27,31 @@ Medusa is an open-source headless commerce engine that enables developers to cre
   </a>
 </p>
 
-> **Prerequisites**: To use the starter you should have a Medusa server running locally on port 9000. Check out [medusa-starter-default](https://github.com/stream-payments/ecommerce-platform-starter-default) for a quick setup.
+> **Prerequisites**: To use the starter you should have a server running locally on port 9000. Check out [StreamPay Shop](https://github.com/stream-payments/ecommerce-platform) for a quick setup.
 
 # Overview
 
 ![next-starter](https://user-images.githubusercontent.com/45367945/182571697-a68c502f-5844-4eea-8735-7683f775ac8b.png)
 
-The Medusa Next.js Starter is built with:
+The StreamPay Next.js Starter is built with:
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Typescript](https://www.typescriptlang.org/)
-- [Medusa](https://medusajs.com/)
+- [StreamPay Shop](https://streampay.shop/)
 
 # Quickstart
 
 ## Deploy in 5 minutes
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/medusajs/nextjs-starter-medusa)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/stream-payments/streampay-storefront)
 
 ## Setting up the environment variables
 
 Navigate into your projects directory and get your enviroment variables ready:
 
 ```shell
-cd nextjs-starter-medusa/
+cd storefront/
 mv .env.template .env.local
 ```
 
@@ -134,11 +134,11 @@ After this you will need to set up Algolia with your Medusa server, and then you
 
 # Resources
 
-## Learn more about Medusa
+## Learn more about StreamPay Shop
 
-- [Website](https://www.medusajs.com/)
-- [GitHub](https://github.com/medusajs)
-- [Documentation](https://docs.medusajs.com/)
+- [Website](https://www.streampay.shop/)
+- [GitHub](https://github.com/stream-payments)
+- [Documentation](https://docs.streamprotocol.org/ecommerce-platform/)
 
 ## Learn more about Next.js
 

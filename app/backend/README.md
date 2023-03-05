@@ -23,7 +23,7 @@ This repo provides the skeleton to get you started with using <a href="https://g
     <img src="https://img.shields.io/twitter/follow/streampay.svg?label=Follow%20@stream_protocol" alt="Follow @stream_protocol" />
   </a>
   <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/stream-payments/ecommerce-platform-starter-default/tree/feat/deploy-heroku">
+    <a href="https://heroku.com/deploy?template=https://github.com/stream-payments/streampay-server/tree/feat/deploy-heroku">
       <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
     </a>
   </p>

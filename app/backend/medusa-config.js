@@ -21,13 +21,13 @@ try {
     dotenv.config({ path: process.cwd() + '/' + ENV_FILE_NAME });
 } catch (e) {}
 
-// CORS when consuming Medusa from admin
+// CORS when consuming StreamPay from admin
 const ADMIN_CORS = process.env.ADMIN_CORS || "https://admin.streampay.shop";
 
-// CORS to avoid issues when consuming Medusa from a client
+// CORS to avoid issues when consuming StreamPay from a client
 const STORE_CORS = process.env.STORE_CORS || "https://streampay.shop";
 
-// Database URL (here we use a local database called medusa-development)
+// Database URL (here we use a local database called streampay-development)
 const DATABASE_URL =
     process.env.DATABASE_URL || "postgres://uvmpphpocajcdx:a387783ee0f0b866c985580787e529dcbd062e3ab9c5d797cceaa5491441448e@ec2-99-80-170-190.eu-west-1.compute.amazonaws.com:5432/d9kdot9imlgfua";
 
@@ -37,6 +37,10 @@ const REDIS_URL = process.env.REDIS_URL || "redis://default:a4onM8LerOvcgMPClLGy
 // Stripe keys
 const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "";
 const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "";
+
+// StreamPay keys
+const STREAMPAY_API_KEY = process.env.STREAMPAY_API_KEY || "";
+const STREAMPAY_WEBHOOK_SECRET = process.env.STREAMPAY_WEBHOOK_SECRET || "";
 
 // This is the place to include plugins. See API documentation for a thorough guide on plugins.
 const plugins = [
