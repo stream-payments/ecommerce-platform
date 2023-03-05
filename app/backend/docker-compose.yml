@@ -10,8 +10,8 @@ services:
       - postgres
       - redis
     environment:
-      DATABASE_URL: postgres://postgres:postgres@postgres:5432/streapay-ecommerce-docker
-      REDIS_URL: redis://redis
+      DATABASE_URL: postgres://uvmpphpocajcdx:a387783ee0f0b866c985580787e529dcbd062e3ab9c5d797cceaa5491441448e@ec2-99-80-170-190.eu-west-1.compute.amazonaws.com:5432/d9kdot9imlgfua/streampay-ecommerce-backend-docker
+      REDIS_URL: redis://default:a4onM8LerOvcgMPClLGyQu6hWnZPIS1Oo8Gw0GFptGSHbSweamj1t4PcgwKGHHnu@im2udm.stackhero-network.com:6379
       NODE_ENV: development
       JWT_SECRET: something
       COOKIE_SECRET: something
