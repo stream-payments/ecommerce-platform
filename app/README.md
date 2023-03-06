@@ -1,4 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/eb235bfa-bbab-4def-a392-9f0b7244f973/deploy-status)](https://app.netlify.com/sites/stream-commerce-admin/deplo
+[![Netlify Status]
+(https://api.netlify.com/api/v1/badges/eb235bfa-bbab-4def-a392-9f0b7244f973/deploy-status)](https://app.netlify.com/sites/stream-commerce-admin/deploy
 
 # Introduction
 
