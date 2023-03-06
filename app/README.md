@@ -1,9 +1,6 @@
-[![Netlify Status]
-(https://api.netlify.com/api/v1/badges/eb235bfa-bbab-4def-a392-9f0b7244f973/deploy-status)](https://app.netlify.com/sites/stream-commerce-admin/deploy
-
 # Introduction
 
- Revolutionizing The Online Payment Industry: Stream Protocol is set to revolutionize the online payment industry with its web3 payment infrastructure. StreamPay web3 payment infrastructure is designed to provide high efficiency, transparency, and fairness for both the merchants and the users. Stream Protocol is currently developing the StreamPay web3 payment platform, a contact-less, cashless application for palm payment features and credit cards that will be accepted globally. This will allow cryptocurrency holders to spend their coins on everyday purchases just like with traditional fiat currency. 
+Revolutionizing The Online Payment Industry: Stream Protocol is set to revolutionize the online payment industry with its web3 payment infrastructure. StreamPay web3 payment infrastructure is designed to provide high efficiency, transparency, and fairness for both the merchants and the users. Stream Protocol is currently developing the StreamPay web3 payment platform, a contact-less, cashless application for palm payment features and credit cards that will be accepted globally. This will allow cryptocurrency holders to spend their coins on everyday purchases just like with traditional fiat currency. 
 
 ## Installation
     
