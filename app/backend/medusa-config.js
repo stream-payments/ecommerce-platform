@@ -21,6 +21,9 @@ try {
     dotenv.config({ path: process.cwd() + '/' + ENV_FILE_NAME });
 } catch (e) {}
 
+// CORS when consuming StreamPay from backend
+const BACKEND_CORS = process.env.BACKEND_CORS || "https://api.streampay.shop";
+
 // CORS when consuming StreamPay from admin
 const ADMIN_CORS = process.env.ADMIN_CORS || "https://admin.streampay.shop";
 
@@ -29,10 +32,10 @@ const STORE_CORS = process.env.STORE_CORS || "https://streampay.shop";
 
 // Database URL (here we use a local database called streampay-development)
 const DATABASE_URL =
-    process.env.DATABASE_URL || "postgres://uvmpphpocajcdx:a387783ee0f0b866c985580787e529dcbd062e3ab9c5d797cceaa5491441448e@ec2-99-80-170-190.eu-west-1.compute.amazonaws.com:5432/d9kdot9imlgfua";
+    process.env.DATABASE_URL || "postgres://gwnzkxajdhwoyg:e83ee4aea94dab9a3f2a9d9c34b9346c50ec1a45cae91c2531553caa981333e7@ec2-52-73-155-171.compute-1.amazonaws.com:5432/ddu16n5o9ub8qp";
 
 // Medusa uses Redis, so this needs configuration as well
-const REDIS_URL = process.env.REDIS_URL || "redis://default:a4onM8LerOvcgMPClLGyQu6hWnZPIS1Oo8Gw0GFptGSHbSweamj1t4PcgwKGHHnu@im2udm.stackhero-network.com:6379";
+const REDIS_URL = process.env.REDIS_URL || "rediss://default:5VsELnsTHx7LGv1OKKNSTpSyYOiaS5eD1Xur02ulSNgElEOq0GLLmwh4FQTfaSyq@3mbmhw.stackhero-network.com:6380";
 
 // Stripe keys
 const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "";
@@ -44,18 +47,33 @@ const STREAMPAY_WEBHOOK_SECRET = process.env.STREAMPAY_WEBHOOK_SECRET || "";
 
 // This is the place to include plugins. See API documentation for a thorough guide on plugins.
 const plugins = [
-    `medusa-fulfillment-manual`,
-    `medusa-payment-manual`,
-    // Uncomment to add Stripe support.
-    // You can create a Stripe account via: https://stripe.com
-    // {
-    //   resolve: `medusa-payment-stripe`,
-    //   options: {
-    //     api_key: STRIPE_API_KEY,
-    //     webhook_secret: STRIPE_WEBHOOK_SECRET,
-    //   },
-    // },
-];
+    // ...
+    {
+        resolve: `medusa-plugin-meilisearch`,
+        options: {
+            // config object passed when creating an instance
+            // of the MeiliSearch client
+            config: {
+                host: process.env.MEILISEARCH_HOST,
+                apiKey: process.env.MEILISEARCH_API_KEY,
+            },
+            settings: {
+                // index name
+                products: {
+                    // MeiliSearch's setting options to be set on a particular index
+                    searchableAttributes: ["title", "description", "variant_sku"],
+                    displayedAttributes: [
+                        "title",
+                        "description",
+                        "variant_sku",
+                        "thumbnail",
+                        "handle",
+                    ],
+                },
+            },
+        },
+    },
+]
 
 module.exports = {
     projectConfig: {
@@ -64,9 +82,7 @@ module.exports = {
         database_type: "postgres",
         store_cors: STORE_CORS,
         admin_cors: ADMIN_CORS,
-        database_extra: process.env.NODE_ENV !== "development" ?
-            { ssl: { rejectUnauthorized: false } } :
-            {},
+        database_extra: process.env.NODE_ENV !== "development" ? { ssl: { rejectUnauthorized: false } } : {},
     },
     plugins,
 }
