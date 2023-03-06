@@ -14,13 +14,18 @@
     "dependencies": {
         "@medusajs/medusa": "^1.1.54",
         "@medusajs/medusa-cli": "^1.3.3",
+        "@sendgrid/mail": "^7.7.0",
+        "ioredis": "^4.28.5",
+        "medusa-extender": "^1.8.8",
         "medusa-fulfillment-manual": "^1.1.31",
         "medusa-interfaces": "^1.3.3",
         "medusa-payment-manual": "^1.0.16",
         "medusa-payment-stripe": "^1.1.45",
+        "medusa-plugin-meilisearch": "^1.0.4",
+        "pg": "^8.9.0",
         "typeorm": "^0.2.36"
     },
-    "repository": "https://github.com/stream-payments/streampay-server.git",
+    "repository": "https://github.com/stream-payments/ecommerce-platform.git",
     "keywords": [
         "postgres",
         "ecommerce",
