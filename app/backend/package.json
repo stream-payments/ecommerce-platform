@@ -32,12 +32,16 @@
         "headless",
         "streampay"
     ],
-    "devDependencies": {
-        "@babel/cli": "^7.18.10",
-        "@babel/core": "^7.18.10",
-        "@babel/preset-typescript": "^7.14.5",
-        "@next/eslint-plugin-next": "^13.2.3",
-        "babel-preset-medusa-package": "^1.1.19",
-        "eslint-config-prettier": "^8.6.0"
-    }
-}
+      "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-typescript": "^7.14.5",
+    "@next/eslint-plugin-next": "^13.2.3",
+    "babel-preset-medusa-package": "^1.1.19",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/stream-payments/ecommerce-platform/issues"
+  },
+  "homepage": "https://github.com/stream-payments/ecommerce-platform#readme",
+  "main": ".babelrc.js"
