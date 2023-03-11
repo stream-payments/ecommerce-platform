@@ -32,7 +32,7 @@
         "headless",
         "streampay"
     ],
-      "devDependencies": {
+    "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.10",
     "@babel/preset-typescript": "^7.14.5",
